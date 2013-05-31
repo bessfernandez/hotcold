@@ -22,6 +22,7 @@ This games requirments:
 - guess <b>must</b> be compaired with previous guess to get an accurate "hotter" or "colder"
 - guess equal to previous guess will return colder
 - reset button will remove previous guess, generate a new number, set div#status text to "..." and div#status background color to #333;
+- First guess should be compaired agains 25. (if guess is withing 25 digits of target return "hotter" if it is 25 digis away or farther return "colder")
 
 No worry about browser compatibility, only needs to run in chrome.
 

@@ -23,5 +23,6 @@ This games requirments:
 - guess equal to previous guess will return colder
 - reset button will remove previous guess, generate a new number, set div#status text to "..." and div#status background color to #333;
 
+No worry about browser compatibility, only needs to run in chrome.
 
-Style loosly based on submission by [Rose Emmons](https://plus.google.com/u/0/107224717251001624273/posts/fuCoaP2i73o)
+Style loosly based on submission by [Rose Emmons](https://plus.google.com/u/0/107224717251001624273/posts/MnEt3jMfzt6)

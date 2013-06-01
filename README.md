@@ -16,7 +16,7 @@ After each number guessed the user is prompted, hotter or colder, depending on i
 
 This games requirments:
 - Game must function!
-- Random generated number must be a random number between 0 and 100
+- Random generated number must be a random whole number between 0 and 100
 - Submit button will compair current guess (value of input[type=text]) with previous guess and update both text and background color of div#status
 - div#status  text values will be "hotter", "colder" and "correct" as needed
 - div#status color values any variation of red, blue, green respectively.

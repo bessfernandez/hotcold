@@ -14,10 +14,11 @@ window.onload = function() {
      	return;
      }
 	 var guessDiff = Math.abs(r - v);
-	 if (prdiff && prdiff > guessDiff) {
-		guessDiff > 25 ? set(1) : set(0);
-	 }
-	 guessDiff > 25 ? set(1) : set(0);	
+	 if (prdiff) {
+		guessDiff > prdiff ? set(1) : set(0);
+	 } else {
+	 	guessDiff > rg ? set(1) : set(0);
+	 }	
  	 function set(arnum) {
 	 	 s.innerHTML = st[arnum];
 	 	 s.style.background= cl[arnum];
